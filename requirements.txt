@@ -1,0 +1,11 @@
+uvicorn[standard]
+gunicorn
+fastapi[all]
+pydantic
+openai
+chromadb
+aiohttp
+beautifulsoup4
+scipy
+spacy
+more-itertools
