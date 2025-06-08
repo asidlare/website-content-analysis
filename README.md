@@ -25,7 +25,34 @@ Embeddings are created in chromaDB using OpenAI.<br>
 
 ### Finding similarities between contents
 
-`distance.cosine` from `scipy.spatial` is used to calculate similarities for all urls` combinations.
+#### `distance.cosine` from `scipy.spatial`
+
+`distance.cosine` is used to calculate similarities for all urls combinations.
+
+#### top 5 results from chromaDB search
+
+Last part of url is used as query search and top 5 results are presented.
+
+It is a good opportunity to see how search based on similarities can be sometimes misleading.<br>
+
+For example I chose the following articles in my test set:
+* https://pl.wikipedia.org/wiki/Dysk_akrecyjny (astrophysics)
+* https://pl.wikipedia.org/wiki/Zbrojni (Discworld by Pratchett)
+* https://pl.wikipedia.org/wiki/Muzyka_duszy (Discworld by Pratchett)
+
+And top5 for the 1st position:
+```json
+"chromadb_search": {
+        "query_text": "Dysk akrecyjny",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Zbrojni",
+          "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+          "https://pl.wikipedia.org/wiki/Agamemnon"
+        ]
+      }
+```
 
 ### List of nouns from content with their frequencies
 
@@ -45,6 +72,16 @@ Nouns having at least 2 occurrences are displayed.
   "stats": [
     {
       "url1": "https://pl.wikipedia.org/wiki/ChatGPT",
+      "chromadb_search": {
+        "query_text": "ChatGPT",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/PLLuM",
+          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "https://pl.wikipedia.org/wiki/Hugging_Face",
+          "https://pl.wikipedia.org/wiki/PyTorch"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/PLLuM",
@@ -185,6 +222,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "chromadb_search": {
+        "query_text": "Retrieval-augmented generation",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/Hugging_Face",
+          "https://pl.wikipedia.org/wiki/PLLuM",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/PLLuM",
@@ -279,6 +326,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/PLLuM",
+      "chromadb_search": {
+        "query_text": "PLLuM",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/PLLuM",
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/PyTorch",
+          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/PyTorch",
@@ -371,6 +428,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Hugging_Face",
+      "chromadb_search": {
+        "query_text": "Hugging Face",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Hugging_Face",
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/Hekabe",
+          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+          "https://pl.wikipedia.org/wiki/PLLuM"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/PyTorch",
@@ -446,6 +513,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/PyTorch",
+      "chromadb_search": {
+        "query_text": "PyTorch",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/PyTorch",
+          "https://pl.wikipedia.org/wiki/TensorFlow",
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/Hugging_Face",
+          "https://pl.wikipedia.org/wiki/PLLuM"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
@@ -519,6 +596,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/TensorFlow",
+      "chromadb_search": {
+        "query_text": "TensorFlow",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/TensorFlow",
+          "https://pl.wikipedia.org/wiki/PyTorch",
+          "https://pl.wikipedia.org/wiki/Hugging_Face",
+          "https://pl.wikipedia.org/wiki/ChatGPT",
+          "https://pl.wikipedia.org/wiki/PLLuM"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Blazar",
@@ -592,6 +679,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Kwazar",
+      "chromadb_search": {
+        "query_text": "Kwazar",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Kwazar",
+          "https://pl.wikipedia.org/wiki/Blazar",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Blazar",
@@ -693,6 +790,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Blazar",
+      "chromadb_search": {
+        "query_text": "Blazar",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Blazar",
+          "https://pl.wikipedia.org/wiki/Kwazar",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
@@ -815,6 +922,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "chromadb_search": {
+        "query_text": "Dysk akrecyjny",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Zbrojni",
+          "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+          "https://pl.wikipedia.org/wiki/Agamemnon"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
@@ -929,6 +1046,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "chromadb_search": {
+        "query_text": "Soczewkowanie grawitacyjne",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+          "https://pl.wikipedia.org/wiki/Blazar",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/ChatGPT"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
@@ -1013,6 +1140,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "chromadb_search": {
+        "query_text": "Ciemna energia",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Ciemna_energia",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Blazar",
+          "https://pl.wikipedia.org/wiki/Kwazar",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
@@ -1110,6 +1247,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Zbrojni",
+      "chromadb_search": {
+        "query_text": "Zbrojni",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Zbrojni",
+          "https://pl.wikipedia.org/wiki/PLLuM",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia",
+          "https://pl.wikipedia.org/wiki/Blazar"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
@@ -1165,6 +1312,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "chromadb_search": {
+        "query_text": "Muzyka duszy",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Zbrojni",
+          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Achilles",
@@ -1212,6 +1369,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "chromadb_search": {
+        "query_text": "Pale Blue Dot",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
@@ -1260,6 +1427,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "chromadb_search": {
+        "query_text": "The Blue Marble",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+          "https://pl.wikipedia.org/wiki/Ciemna_energia",
+          "https://pl.wikipedia.org/wiki/Kwazar"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
@@ -1311,6 +1488,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Hekabe",
+      "chromadb_search": {
+        "query_text": "Hekabe",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Hekabe",
+          "https://pl.wikipedia.org/wiki/Penelopa",
+          "https://pl.wikipedia.org/wiki/Achilles",
+          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+          "https://pl.wikipedia.org/wiki/Hugging_Face"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Penelopa",
@@ -1343,6 +1530,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Achilles",
+      "chromadb_search": {
+        "query_text": "Achilles",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Achilles",
+          "https://pl.wikipedia.org/wiki/Agamemnon",
+          "https://pl.wikipedia.org/wiki/Hekabe",
+          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+          "https://pl.wikipedia.org/wiki/Penelopa"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
@@ -1388,6 +1585,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Agamemnon",
+      "chromadb_search": {
+        "query_text": "Agamemnon",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Agamemnon",
+          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+          "https://pl.wikipedia.org/wiki/Penelopa",
+          "https://pl.wikipedia.org/wiki/Hekabe",
+          "https://pl.wikipedia.org/wiki/Achilles"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
@@ -1443,6 +1650,16 @@ Nouns having at least 2 occurrences are displayed.
     },
     {
       "url1": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "chromadb_search": {
+        "query_text": "Sen Agamemnona",
+        "top_5_results": [
+          "https://pl.wikipedia.org/wiki/Agamemnon",
+          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+          "https://pl.wikipedia.org/wiki/Hekabe",
+          "https://pl.wikipedia.org/wiki/Achilles",
+          "https://pl.wikipedia.org/wiki/Penelopa"
+        ]
+      },
       "similarities": [
         {
           "url2": "https://pl.wikipedia.org/wiki/Penelopa",
@@ -1467,5 +1684,3 @@ Nouns having at least 2 occurrences are displayed.
   ]
 }
 ```
-
-

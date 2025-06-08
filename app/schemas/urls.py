@@ -13,16 +13,34 @@ class Similarity(BaseModel):
     similarity: float = Field(..., description="Cosine similarity between two URLs")
 
 
-class Comparison(BaseModel):
+class ChromadbSearch(BaseModel):
     """
-    A model representing the comparison details between two URLs.
+    A model class used for structuring the data related to search functionality in a ChromaDB system.
 
     Attributes:
-        url1 (HttpUrl): The first URL in the comparison.
-        similarities (list[Similarity]): The cosine similarities between the URLs.
-        nouns (dict[str, int]): The frequency of nouns extracted from the first URL.
+        query_text: A string representing the text to search for.
+        top_5_results: A list of URLs representing the top 5 search results.
+    """
+    query_text: str = Field(..., description="Text to search for")
+    top_5_results: list[HttpUrl] = Field(..., description="Top 5 results")
+
+
+class Comparison(BaseModel):
+    """
+    Represents a comparison model for analyzing similarities and differences between two URLs.
+
+    Attributes:
+        url1 (HttpUrl):
+            First URL to be compared.
+        chromadb_search (ChromadbSearch):
+            Chromadb search results containing relevant data for comparison.
+        similarities (list[Similarity]):
+            A list of cosine similarity metrics between the URLs.
+        nouns (dict[str, int]):
+            A dictionary representing the frequency of nouns extracted from the first URL.
     """
     url1: HttpUrl = Field(..., description="First URL")
+    chromadb_search: ChromadbSearch = Field(..., description="Chromadb search results")
     similarities: list[Similarity] = Field(..., description="Cosine similarities between the URLs")
     nouns: dict[str, int] = Field(..., description="Nouns frequency for the first URL")
 

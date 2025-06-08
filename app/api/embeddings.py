@@ -82,3 +82,33 @@ def get_urls_data(embeddings: bool = True) -> Iterator[tuple[str, T]]:
         zip([mapping[id] for id in data["ids"]], data["embeddings"]) if embeddings
         else zip([mapping[id] for id in data["ids"]], data["documents"])
     )
+
+
+def get_top_n(n=5) -> tuple[dict[str, str], dict[str, list[str]]]:
+    """
+    Fetches the top N related URLs and their respective textual representations.
+
+    :param n: The number of top related URLs to retrieve for each input, default is 5.
+    :return: A tuple containing two dictionaries:
+             - The first dictionary maps URLs to their textual representations.
+             - The second dictionary maps URLs to a list of their N most related URLs.
+    """
+    if not check_if_urls_in_collection():
+        create_embeddings()
+
+    results = {}
+    texts = {}
+
+    mapping = wikipedia_urls_mapping()
+    collection = get_or_create_collection()
+    for id, url in mapping.items():
+        text = url.split('/')[-1].replace('_', ' ')
+        texts[url] = text
+        results[url] = [
+            mapping[id]
+            for id in collection.query(
+                query_texts=[text],
+                n_results=n
+            )["ids"][0]
+        ]
+    return texts, results
