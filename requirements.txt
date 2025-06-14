@@ -4,8 +4,14 @@ fastapi[all]
 pydantic
 openai
 chromadb
+sentence-transformers
+transformers
+torch
 aiohttp
 beautifulsoup4
+pandas
 scipy
 spacy
+stanza
 more-itertools
+typer

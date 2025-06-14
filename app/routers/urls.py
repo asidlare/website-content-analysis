@@ -1,8 +1,8 @@
 from fastapi import APIRouter, status
-from app.api.embeddings import get_top_n
-from app.api.nouns import calculate_frequencies
-from app.api.similarities import calculate_similarities
-from app.schemas.urls import ComparisonResponse
+from app.api.embeddings import get_top5
+from app.api.nouns import get_frequencies
+from app.api.similarities import load_similarities_from_csv
+from app.schemas.urls import FinalResponse
 
 
 urls_router = APIRouter()
@@ -11,33 +11,20 @@ urls_router = APIRouter()
 @urls_router.get(
     "/get-stats",
     status_code=status.HTTP_200_OK,
-    response_model=ComparisonResponse
+    response_model=FinalResponse
 )
 async def get_stats():
     """
-    Handles the GET request to retrieve statistical data on URL similarities, including sorted similarity metrics,
-    search results, and noun frequencies.
+    Handles the retrieval of statistical data used for analysis purposes.
+    The function collects and processes top 5 ChromaDB results, similarity
+    metrics from a CSV file, and word frequency data.
 
-    :return: A dictionary containing the statistics for each URL. For each URL, the following information is included:
-             - 'url1': The URL being analyzed.
-             - 'similarities': A list of similarity data sorted in descending order of similarity scores.
-             - 'chromadb_search': A dictionary containing query text and the top 5 search results related to the URL.
-             - 'nouns': The frequency of nouns related to the URL.
+    :return: A dictionary containing three keys: `chromadb_top5`, `similarities`,
+        and `nouns`. Each key holds the corresponding processed data.
+    :rtype: dict
     """
-    frequencies = await calculate_frequencies()
-    similarities = await calculate_similarities()
-    texts, search_results = get_top_n()
-    return {'stats':
-        [
-            {
-                'url1': url,
-                'similarities': sorted(data['similarities'], key=lambda x: x['similarity'], reverse=True),
-                'chromadb_search': {
-                    'query_text': texts[url],
-                    'top_5_results': search_results[url],
-                },
-                'nouns': frequencies[url],
-            }
-            for url, data in similarities.items()
-        ]
+    return {
+        "chromadb_top5": get_top5(),
+        "similarities": load_similarities_from_csv(),
+        "nouns": get_frequencies()
     }

@@ -1,1615 +1,4828 @@
 {
-  "stats": [
+  "chromadb_top5": [
     {
-      "url1": "https://pl.wikipedia.org/wiki/ChatGPT",
-      "chromadb_search": {
-        "query_text": "ChatGPT",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/PLLuM",
-          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-          "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "https://pl.wikipedia.org/wiki/PyTorch"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PLLuM",
-          "similarity": 0.6841
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "similarity": 0.5444
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-          "similarity": 0.5342
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PyTorch",
-          "similarity": 0.5188
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
-          "similarity": 0.5085
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.3105
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.3043
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2993
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.2916
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.283
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.2787
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.2456
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2437
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.2383
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.2361
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2135
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2097
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.1989
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1648
-        }
+      "url": "https://pl.wikipedia.org/wiki/ChatGPT",
+      "query_text": "ChatGPT",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/PyTorch"
       ],
-      "nouns": {
-        "chatgpt": 23,
-        "model": 15,
-        "rok": 8,
-        "język": 8,
-        "gpt": 7,
-        "użytkownik": 6,
-        "dane": 5,
-        "listopad": 4,
-        "odpowiedź": 4,
-        "tekst": 4,
-        "informacja": 4,
-        "miesiąc": 4,
-        "﻿": 4,
-        "strona": 3,
-        "chatbot": 3,
-        "rozmowa": 3,
-        "wiedza": 3,
-        "uwaga": 3,
-        "jakość": 3,
-        "marzec": 3,
-        "pytanie": 3,
-        "zależność": 3,
-        "treść": 3,
-        "google": 3,
-        "nazwa": 3,
-        "program": 2,
-        "openai": 2,
-        "wersja": 2,
-        "kwiecień": 2,
-        "inteligencja": 2,
-        "generować": 2,
-        "podstawa": 2,
-        "pomoc": 2,
-        "uczyć": 2,
-        "rozwój": 2,
-        "luty": 2,
-        "funkcja": 2,
-        "narzędzie": 2,
-        "pisać": 2,
-        "robot": 2,
-        "człowiek": 2,
-        "generowanie": 2,
-        "wyszukiwarka": 2,
-        "naukowiec": 2,
-        "stan": 2,
-        "popularność": 2,
-        "geminia": 2,
-        "claude": 2,
-        "anthropic": 2,
-        "uniwersytet": 2,
-        "badanie": 2,
-        "alternatywa": 2,
-        "maj": 2,
-        "państwo": 2,
-        "spółka": 2,
-        "firma": 2,
-        "trurl.ai": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/Penelopa"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-      "chromadb_search": {
-        "query_text": "Retrieval-augmented generation",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "https://pl.wikipedia.org/wiki/PLLuM",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PLLuM",
-          "similarity": 0.5037
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "similarity": 0.3678
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.3579
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.3307
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
-          "similarity": 0.3284
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.301
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.2934
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PyTorch",
-          "similarity": 0.2882
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.2688
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.2331
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2292
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2085
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.1995
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.1843
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.1775
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.1597
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1581
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.14
-        }
+      "url": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "query_text": "Retrieval-augmented generation",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny"
       ],
-      "nouns": {
-        "dane": 5,
-        "informacja": 4,
-        "llm": 4,
-        "użytkownik": 4,
-        "pol": 4,
-        "odpowiedź": 3,
-        "retrieval": 2,
-        "generation": 2,
-        "zapytanie": 2,
-        "model": 2,
-        "źródło": 2,
-        "dokument": 2,
-        "technika": 2,
-        "schemat": 2,
-        "wzbogacać": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/TensorFlow"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/PLLuM",
-      "chromadb_search": {
-        "query_text": "PLLuM",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/PLLuM",
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/PyTorch",
-          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PyTorch",
-          "similarity": 0.4379
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
-          "similarity": 0.392
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "similarity": 0.3832
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2948
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.2898
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.2774
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.2646
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.2571
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.253
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.2454
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.2192
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.2137
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1835
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.1808
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.1759
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1668
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.1558
-        }
+      "url": "https://pl.wikipedia.org/wiki/PLLuM",
+      "query_text": "PLLuM",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot"
       ],
-      "nouns": {
-        "model": 8,
-        "pllum": 7,
-        "cyfryzacja": 4,
-        "rok": 4,
-        "język": 3,
-        "projekt": 3,
-        "ministerstwo": 2,
-        "luty": 2,
-        "rodzina": 2,
-        "przetwarzać": 2,
-        "tekst": 2,
-        "ekspert": 2,
-        "informatyka": 2,
-        "instytut": 2,
-        "pan": 2,
-        "miliard": 2,
-        "tworzyć": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Penelopa",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Hugging_Face",
-      "chromadb_search": {
-        "query_text": "Hugging Face",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/Hekabe",
-          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "https://pl.wikipedia.org/wiki/PLLuM"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/PyTorch",
-          "similarity": 0.4624
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
-          "similarity": 0.4343
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2126
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.1858
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.1721
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.1685
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1671
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.1651
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.1353
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.1329
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.1324
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.1275
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.1131
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.1098
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.0781
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.0743
-        }
+      "url": "https://pl.wikipedia.org/wiki/Hugging_Face",
+      "query_text": "Hugging Face",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/PLLuM"
       ],
-      "nouns": {
-        "hugging": 2,
-        "faca": 2,
-        "firma": 2,
-        "platforma": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/TensorFlow"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/PyTorch",
-      "chromadb_search": {
-        "query_text": "PyTorch",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/PyTorch",
-          "https://pl.wikipedia.org/wiki/TensorFlow",
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "https://pl.wikipedia.org/wiki/PLLuM"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/TensorFlow",
-          "similarity": 0.6975
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2648
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.2263
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.212
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.2106
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.1919
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.1869
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.1849
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.1783
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.1771
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.1701
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1558
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1092
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.0865
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.0734
-        }
+      "url": "https://pl.wikipedia.org/wiki/PyTorch",
+      "query_text": "PyTorch",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/TensorFlow",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/PLLuM"
       ],
-      "nouns": {
-        "pytorch": 4,
-        "język": 3,
-        "biblioteka": 3,
-        "python": 2,
-        "linux": 2,
-        "oprogramowanie": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/TensorFlow",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/TensorFlow",
-      "chromadb_search": {
-        "query_text": "TensorFlow",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/TensorFlow",
-          "https://pl.wikipedia.org/wiki/PyTorch",
-          "https://pl.wikipedia.org/wiki/Hugging_Face",
-          "https://pl.wikipedia.org/wiki/ChatGPT",
-          "https://pl.wikipedia.org/wiki/PLLuM"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.2568
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2508
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.2252
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Kwazar",
-          "similarity": 0.2196
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.2095
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.1975
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.1742
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.1734
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.1519
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1152
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.0901
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.0813
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.0803
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.0758
-        }
+      "url": "https://pl.wikipedia.org/wiki/TensorFlow",
+      "query_text": "TensorFlow",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/TensorFlow",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/PLLuM"
       ],
-      "nouns": {
-        "biblioteka": 5,
-        "język": 3,
-        "c++": 3,
-        "warstwa": 3,
-        "model": 3,
-        "google": 2,
-        "listopad": 2,
-        "wersja": 2,
-        "python": 2,
-        "api": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/TensorFlow",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/PLLuM"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Kwazar",
-      "chromadb_search": {
-        "query_text": "Kwazar",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Kwazar",
-          "https://pl.wikipedia.org/wiki/Blazar",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Blazar",
-          "similarity": 0.6909
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.628
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.6149
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.5948
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.4317
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.389
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2405
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2285
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.2256
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.2223
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2105
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.2037
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1725
-        }
+      "url": "https://pl.wikipedia.org/wiki/Kwazar",
+      "query_text": "Kwazar",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia"
       ],
-      "nouns": {
-        "kwazar": 26,
-        "rok": 12,
-        "galaktyka": 11,
-        "dziura": 9,
-        "gwiazda": 8,
-        "obiekt": 7,
-        "kwazara": 7,
-        "promieniowanie": 6,
-        "ewolucja": 6,
-        "czerwień": 4,
-        "światło": 4,
-        "miliard": 4,
-        "dysk": 4,
-        "odkrycie": 3,
-        "niebo": 3,
-        "jasność": 3,
-        "czas": 3,
-        "jądro": 3,
-        "ziemia": 3,
-        "odległościa": 3,
-        "materia": 3,
-        "otoczenie": 3,
-        "stellar": 2,
-        "źródło": 2,
-        "moc": 2,
-        "rodzaj": 2,
-        "wiek": 2,
-        "emisja": 2,
-        "badać": 2,
-        "rząd": 2,
-        "centrum": 2,
-        "dżet": 2,
-        "zakres": 2,
-        "przesunięć": 2,
-        "liczba": 2,
-        "tempo": 2,
-        "powstawać": 2,
-        "wykres": 2,
-        "jednostka": 2,
-        "objętość": 2,
-        "związek": 2,
-        "strona": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Blazar",
-      "chromadb_search": {
-        "query_text": "Blazar",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Blazar",
-          "https://pl.wikipedia.org/wiki/Kwazar",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "similarity": 0.6026
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.5769
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.5634
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.3687
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.3244
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2157
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.2149
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.1891
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.184
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1657
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.1644
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1495
-        }
+      "url": "https://pl.wikipedia.org/wiki/Blazar",
+      "query_text": "Blazar",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia"
       ],
-      "nouns": {
-        "zakres": 13,
-        "promieniowanie": 10,
-        "blazara": 9,
-        "blazar": 8,
-        "}": 7,
-        "dżet": 6,
-        "lacertyd": 6,
-        "typ": 5,
-        "zmienność": 5,
-        "kwazar": 4,
-        "fala": 4,
-        "polaryzacja": 4,
-        "linia": 4,
-        "położenie": 4,
-        "∼": 4,
-        "jądro": 4,
-        "emisja": 4,
-        "obserwacja": 4,
-        "teleskop": 4,
-        "czynnik": 4,
-        "widmo": 3,
-        "obserwator": 3,
-        "kwazara": 3,
-        "gamma": 3,
-        "przypadek": 3,
-        "energia": 3,
-        "tev": 3,
-        "składnik": 3,
-        "jasność": 3,
-        "charakter": 3,
-        "mapa": 3,
-        "obserwatorium": 3,
-        "model": 3,
-        "elektron": 3,
-        "galaktyka": 2,
-        "kąt": 2,
-        "klasa": 2,
-        "obiekt": 2,
-        "bl": 2,
-        "lac": 2,
-        "rząd": 2,
-        "dysk": 2,
-        "szerokość": 2,
-        "czerwień": 2,
-        "odległościa": 2,
-        "rok": 2,
-        "skała": 2,
-        "optycznie": 2,
-        "długość": 2,
-        "prędkoścei": 2,
-        "kampania": 2,
-        "dane": 2,
-        "interpretacja": 2,
-        "widm": 2,
-        "plazma": 2,
-        "propagacja": 2,
-        "=": 2,
-        "galaktyk": 2,
-        "radiogalaktyk": 2,
-        "fr": 2,
-        "obecność": 2,
-        "pole": 2,
-        "proces": 2,
-        "komptonizacja": 2,
-        "foton": 2,
-        "obszar": 2,
-        "\\displaystyle": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-      "chromadb_search": {
-        "query_text": "Dysk akrecyjny",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Zbrojni",
-          "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "https://pl.wikipedia.org/wiki/Agamemnon"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.5898
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "similarity": 0.5601
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.462
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.3921
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.3468
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.3121
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.2822
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2612
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.258
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2338
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.2115
-        }
+      "url": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "query_text": "Dysk akrecyjny",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Agamemnon"
       ],
-      "nouns": {
-        "gwiazda": 26,
-        "dysk": 25,
-        "materia": 15,
-        "dziura": 15,
-        "promieniowanie": 12,
-        "część": 10,
-        "moment": 9,
-        "pole": 8,
-        "obiekt": 6,
-        "pąd": 6,
-        "horyzont": 6,
-        "układ": 6,
-        "lepkość": 5,
-        "galaktyka": 5,
-        "powierzchnia": 5,
-        "efekt": 5,
-        "}": 5,
-        "akrecja": 4,
-        "pęd": 4,
-        "orbity": 4,
-        "temperatura": 4,
-        "odległość": 4,
-        "promień": 4,
-        "cząstka": 4,
-        "foton": 4,
-        "typ": 3,
-        "wynik": 3,
-        "energia": 3,
-        "zakres": 3,
-        "dyski": 3,
-        "miejsce": 3,
-        "ciało": 3,
-        "wiatr": 3,
-        "plazma": 3,
-        "teoria": 3,
-        "względność": 3,
-        "kierunek": 3,
-        "struktura": 2,
-        "pył": 2,
-        "gaz": 2,
-        "zjawisko": 2,
-        "siła": 2,
-        "orbita": 2,
-        "obszar": 2,
-        "ciepło": 2,
-        "cząstek": 2,
-        "kwazara": 2,
-        "’": 2,
-        "przypadek": 2,
-        "ruch": 2,
-        "ośrodek": 2,
-        "przekazywać": 2,
-        "wpływ": 2,
-        "forma": 2,
-        "\\frac": 2,
-        "promieć": 2,
-        "masa": 2,
-        "podstawa": 2,
-        "wartość": 2,
-        "czas": 2,
-        "obserwator": 2,
-        "rozkład": 2,
-        "świecenie": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-      "chromadb_search": {
-        "query_text": "Soczewkowanie grawitacyjne",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
-          "https://pl.wikipedia.org/wiki/Blazar",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/ChatGPT"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "similarity": 0.6473
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.4663
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.4043
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2773
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.2282
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.2116
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2056
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.1908
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.1716
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.1666
-        }
+      "url": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "query_text": "Soczewkowanie grawitacyjne",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/ChatGPT"
       ],
-      "nouns": {
-        "obraz": 18,
-        "galaktyka": 15,
-        "soczewkowanie": 12,
-        "źródło": 8,
-        "obiekt": 8,
-        "soczewka": 8,
-        "efekt": 7,
-        "materia": 6,
-        "ciało": 4,
-        "soczewkowania": 4,
-        "hubbel": 4,
-        "’": 4,
-        "promień": 3,
-        "gromada": 3,
-        "przykład": 3,
-        "mikrosoczewkować": 3,
-        "symulacja": 3,
-        "łuk": 3,
-        "teleskop": 3,
-        "szczególność": 3,
-        "masa": 2,
-        "pojaśnieć": 2,
-        "przejaw": 2,
-        "soczewkowaniu": 2,
-        "parametr": 2,
-        "gęstość": 2,
-        "wszechświat": 2,
-        "rodzaj": 2,
-        "obserwator": 2,
-        "einstein": 2,
-        "rozkład": 2,
-        "zderzenie": 2,
-        "energia": 2,
-        "podstawa": 2,
-        "zniekształceć": 2,
-        "analiza": 2,
-        "obecność": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Ciemna_energia",
-      "chromadb_search": {
-        "query_text": "Ciemna energia",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Blazar",
-          "https://pl.wikipedia.org/wiki/Kwazar",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.4949
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.4021
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Zbrojni",
-          "similarity": 0.2921
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2866
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.2669
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2443
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.2123
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.2013
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.1954
-        }
+      "url": "https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "query_text": "Ciemna energia",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Ciemna_energia",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne"
       ],
-      "nouns": {
-        "energia": 15,
-        "wszechświat": 13,
-        "ekspansja": 9,
-        "materia": 7,
-        "galaktyka": 7,
-        "pomiar": 6,
-        "promieniowanie": 6,
-        "model": 6,
-        "gęstość": 6,
-        "tempo": 5,
-        "masa": 5,
-        "teoria": 5,
-        "obserwacja": 5,
-        "rozkład": 5,
-        "kosmos": 4,
-        "problem": 4,
-        "wynik": 4,
-        "część": 4,
-        "tło": 4,
-        "wszechświet": 3,
-        "istnieć": 3,
-        "założenie": 3,
-        "wiek": 3,
-        "rok": 3,
-        "typ": 3,
-        "ziemia": 3,
-        "hipoteza": 3,
-        "dane": 3,
-        "struktura": 3,
-        "gwiazda": 2,
-        "dark": 2,
-        "energy": 2,
-        "rozszerzać": 2,
-        "badanie": 2,
-        "siła": 2,
-        "pole": 2,
-        "kwintesencja": 2,
-        "form": 2,
-        "obraz": 2,
-        "czas": 2,
-        "kosmologia": 2,
-        "cdm": 2,
-        "aspekt": 2,
-        "względność": 2,
-        "układ": 2,
-        "przegląd": 2,
-        "soczewkowanie": 2,
-        "oscylacja": 2,
-        "parametr": 2,
-        "czerwień": 2,
-        "gromada": 2,
-        "hubbel": 2,
-        "’": 2,
-        "miejsce": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Ciemna_energia",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Blazar",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Zbrojni",
-      "chromadb_search": {
-        "query_text": "Zbrojni",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Zbrojni",
-          "https://pl.wikipedia.org/wiki/PLLuM",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "https://pl.wikipedia.org/wiki/Blazar"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "similarity": 0.6829
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.3575
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.3442
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.335
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.3162
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.3134
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.2407
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.2087
-        }
+      "url": "https://pl.wikipedia.org/wiki/Zbrojni",
+      "query_text": "Zbrojni",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia",
+        "https://pl.wikipedia.org/wiki/Blazar"
       ],
-      "nouns": {
-        "’": 4,
-        "straż": 4,
-        "eath": 3,
-        "powieść": 2,
-        "wydanie": 2,
-        "data": 2,
-        "wydać": 2,
-        "Piotr": 2,
-        "cholew": 2,
-        "potomek": 2,
-        "ankh": 2,
-        "czas": 2,
-        "śledztwo": 2,
-        "nazwa": 2,
-        "oryginał": 2,
-        "funkcja": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/PLLuM"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-      "chromadb_search": {
-        "query_text": "Muzyka duszy",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Muzyka_duszy",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Zbrojni",
-          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2956
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.2762
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "similarity": 0.2758
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2543
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.2466
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.2416
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.1802
-        }
+      "url": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "query_text": "Muzyka duszy",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia"
       ],
-      "nouns": {
-        "muzyka": 5,
-        "dusza": 4,
-        "powieść": 3,
-        "wydanie": 3,
-        "data": 2,
-        "wydać": 2,
-        "Piotr": 2,
-        "cholew": 2,
-        "dysk": 2,
-        "książka": 2,
-        "śmierć": 2,
-        "imp": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/PyTorch",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-      "chromadb_search": {
-        "query_text": "Pale Blue Dot",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "similarity": 0.7369
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.3068
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.2773
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2335
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2238
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.1881
-        }
+      "url": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "query_text": "Pale Blue Dot",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia"
       ],
-      "nouns": {
-        "zdjęcie": 7,
-        "ziemia": 6,
-        "układ": 6,
-        "sonda": 5,
-        "voyager": 4,
-        "odległość": 3,
-        "miliard": 3,
-        "dot": 2,
-        "kilometr": 2,
-        "wersja": 2,
-        "użyć": 2,
-        "fotografia": 2,
-        "rok": 2,
-        "cel": 2,
-        "aparat": 2,
-        "obszar": 2,
-        "portret": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-      "chromadb_search": {
-        "query_text": "The Blue Marble",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/The_Blue_Marble",
-          "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
-          "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
-          "https://pl.wikipedia.org/wiki/Ciemna_energia",
-          "https://pl.wikipedia.org/wiki/Kwazar"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.279
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.2615
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.224
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Hekabe",
-          "similarity": 0.2043
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.194
-        }
+      "url": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "query_text": "The Blue Marble",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+        "https://pl.wikipedia.org/wiki/Ciemna_energia",
+        "https://pl.wikipedia.org/wiki/Kwazar"
       ],
-      "nouns": {
-        "zdjęcie": 13,
-        "fotografia": 6,
-        "obraz": 5,
-        "ziemia": 5,
-        "apollo": 4,
-        "marble": 4,
-        "nasa": 4,
-        "załoga": 3,
-        "afryka": 3,
-        "góra": 3,
-        "grudzień": 3,
-        "rozdzielczość": 3,
-        "rok": 3,
-        "blue": 3,
-        "raz": 2,
-        "chmura": 2,
-        "nazwa": 2,
-        "seria": 2,
-        "zestaw": 2,
-        "astronauta": 2,
-        "historia": 2,
-        "pełnia": 2,
-        "hasselblad": 2,
-        "harrison": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Agamemnon"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Hekabe",
-      "chromadb_search": {
-        "query_text": "Hekabe",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Hekabe",
-          "https://pl.wikipedia.org/wiki/Penelopa",
-          "https://pl.wikipedia.org/wiki/Achilles",
-          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "https://pl.wikipedia.org/wiki/Hugging_Face"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.6559
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Achilles",
-          "similarity": 0.64
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.5535
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.5102
-        }
+      "url": "https://pl.wikipedia.org/wiki/Hekabe",
+      "query_text": "Hekabe",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Penelopa",
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Hugging_Face"
       ],
-      "nouns": {
-        "dziecko": 3,
-        "królowa": 2,
-        "żona": 2,
-        "priam": 2,
-        "polidor": 2,
-        "kasandra": 2,
-        "kreuza": 2,
-        "śmierć": 2,
-        "rozpacz": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Hugging_Face",
+        "https://pl.wikipedia.org/wiki/ChatGPT",
+        "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+        "https://pl.wikipedia.org/wiki/PyTorch"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Achilles",
-      "chromadb_search": {
-        "query_text": "Achilles",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Achilles",
-          "https://pl.wikipedia.org/wiki/Agamemnon",
-          "https://pl.wikipedia.org/wiki/Hekabe",
-          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "https://pl.wikipedia.org/wiki/Penelopa"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Agamemnon",
-          "similarity": 0.6951
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.6037
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.5663
-        }
+      "url": "https://pl.wikipedia.org/wiki/Achilles",
+      "query_text": "Achilles",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Penelopa"
       ],
-      "nouns": {
-        "achilles": 8,
-        "heros": 3,
-        "syn": 3,
-        "matka": 3,
-        "hektora": 3,
-        "ἀχιλλεύς": 2,
-        "mitologia": 2,
-        "peleus": 2,
-        "ojciec": 2,
-        "dziecko": 2,
-        "bohater": 2,
-        "wojna": 2,
-        "myrmidon": 2,
-        "król": 2,
-        "miasto": 2,
-        "tetyda": 2,
-        "cios": 2,
-        "miejsce": 2,
-        "Achilles": 2,
-        "córka": 2,
-        "branek": 2,
-        "potrzebny": 2,
-        "przypis": 2,
-        "śmierć": 2,
-        "patroklos": 2,
-        "zbroję": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Zbrojni",
+        "https://pl.wikipedia.org/wiki/TensorFlow",
+        "https://pl.wikipedia.org/wiki/Penelopa"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Agamemnon",
-      "chromadb_search": {
-        "query_text": "Agamemnon",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Agamemnon",
-          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "https://pl.wikipedia.org/wiki/Penelopa",
-          "https://pl.wikipedia.org/wiki/Hekabe",
-          "https://pl.wikipedia.org/wiki/Achilles"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "similarity": 0.618
-        },
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.5513
-        }
+      "url": "https://pl.wikipedia.org/wiki/Agamemnon",
+      "query_text": "Agamemnon",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Penelopa",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Achilles"
       ],
-      "nouns": {
-        "agamemnon": 15,
-        "żona": 7,
-        "czas": 7,
-        "klitajmestra": 7,
-        "udział": 5,
-        "król": 3,
-        "menelaos": 3,
-        "syn": 3,
-        "agamemnona": 3,
-        "córka": 3,
-        "wojna": 3,
-        "kasandra": 3,
-        "głowa": 2,
-        "argolid": 2,
-        "plejstenes": 2,
-        "dziecko": 2,
-        "chrysotemis": 2,
-        "elektra": 2,
-        "ifianassa": 2,
-        "orestes": 2,
-        "helena": 2,
-        "ifigenia": 2,
-        "wyprawa": 2,
-        "oblężenie": 2,
-        "branka": 2,
-        "chryzejda": 2,
-        "iliada": 2,
-        "achilles": 2,
-        "ręka": 2,
-        "kasandro": 2,
-        "śmierć": 2,
-        "ajgistos": 2,
-        "mąż": 2,
-        "dom": 2,
-        "kąpiel": 2,
-        "sieć": 2,
-        "topór": 2,
-        "wersja": 2,
-        "agamemnić": 2,
-        "dzień": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Kwazar",
+        "https://pl.wikipedia.org/wiki/Hekabe"
+      ]
     },
     {
-      "url1": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-      "chromadb_search": {
-        "query_text": "Sen Agamemnona",
-        "top_5_results": [
-          "https://pl.wikipedia.org/wiki/Agamemnon",
-          "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
-          "https://pl.wikipedia.org/wiki/Hekabe",
-          "https://pl.wikipedia.org/wiki/Achilles",
-          "https://pl.wikipedia.org/wiki/Penelopa"
-        ]
-      },
-      "similarities": [
-        {
-          "url2": "https://pl.wikipedia.org/wiki/Penelopa",
-          "similarity": 0.5139
-        }
+      "url": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "query_text": "Sen Agamemnona",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Penelopa"
       ],
-      "nouns": {
-        "sen": 14,
-        "zeus": 4,
-        "schemat": 3,
-        "poemat": 2,
-        "ptaszę": 2,
-        "wąż": 2,
-        "achaj": 2,
-        "homer": 2,
-        "przekazać": 2,
-        "wiadomość": 2,
-        "cambier": 2,
-        "apokalipsa": 2
-      }
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Agamemnon",
+        "https://pl.wikipedia.org/wiki/Achilles",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Penelopa"
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Penelopa",
+      "query_text": "Penelopa",
+      "openai_top5_results": [
+        "https://pl.wikipedia.org/wiki/Penelopa",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+        "https://pl.wikipedia.org/wiki/Agamemnon"
+      ],
+      "huggingface_top5_results": [
+        "https://pl.wikipedia.org/wiki/Penelopa",
+        "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+        "https://pl.wikipedia.org/wiki/Hekabe",
+        "https://pl.wikipedia.org/wiki/PLLuM",
+        "https://pl.wikipedia.org/wiki/Pale_Blue_Dot"
+      ]
+    }
+  ],
+  "similarities": [
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.7367,
+      "huggingface": 0.6406
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/TensorFlow",
+      "openai": 0.6975,
+      "huggingface": 0.7172
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Achilles vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.6953,
+      "huggingface": 0.4576
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.691,
+      "huggingface": 0.4407
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/PLLuM",
+      "openai": 0.684,
+      "huggingface": 0.6815
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.683,
+      "huggingface": 0.7835
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hekabe vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.656,
+      "huggingface": 0.6587
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.6474,
+      "huggingface": 0.3936
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hekabe vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.6399,
+      "huggingface": 0.551
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.6281,
+      "huggingface": 0.6553
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Agamemnon vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.6169,
+      "huggingface": 0.5724
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.6149,
+      "huggingface": 0.5217
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Achilles vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.6035,
+      "huggingface": 0.5467
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.6027,
+      "huggingface": 0.5869
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.5949,
+      "huggingface": 0.4126
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.5898,
+      "huggingface": 0.6771
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.577,
+      "huggingface": 0.4404
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Achilles vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.567,
+      "huggingface": 0.6426
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.5633,
+      "huggingface": 0.4526
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.5602,
+      "huggingface": 0.4798
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hekabe vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.5535,
+      "huggingface": 0.7062
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Agamemnon vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.5512,
+      "huggingface": 0.6002
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Hugging_Face",
+      "openai": 0.5446,
+      "huggingface": 0.4662
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "openai": 0.5341,
+      "huggingface": 0.5922
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/PyTorch",
+      "openai": 0.5189,
+      "huggingface": 0.6205
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Sen_Agamemnona vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.5141,
+      "huggingface": 0.4769
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hekabe vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.5099,
+      "huggingface": 0.4868
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/TensorFlow",
+      "openai": 0.5084,
+      "huggingface": 0.4924
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/PLLuM",
+      "openai": 0.5046,
+      "huggingface": 0.5542
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.4949,
+      "huggingface": 0.4558
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.4664,
+      "huggingface": 0.3981
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/PyTorch",
+      "openai": 0.4624,
+      "huggingface": 0.5019
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.4621,
+      "huggingface": 0.6863
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/PyTorch",
+      "openai": 0.4373,
+      "huggingface": 0.612
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/TensorFlow",
+      "openai": 0.4342,
+      "huggingface": 0.3825
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.4316,
+      "huggingface": 0.6834
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.4044,
+      "huggingface": 0.5076
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.402,
+      "huggingface": 0.444
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.3921,
+      "huggingface": 0.631
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/TensorFlow",
+      "openai": 0.3905,
+      "huggingface": 0.482
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.389,
+      "huggingface": 0.4779
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Hugging_Face",
+      "openai": 0.3847,
+      "huggingface": 0.5321
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.3688,
+      "huggingface": 0.4326
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Hugging_Face",
+      "openai": 0.3678,
+      "huggingface": 0.4217
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.3579,
+      "huggingface": 0.279
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.3577,
+      "huggingface": 0.4654
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.3467,
+      "huggingface": 0.3769
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.3442,
+      "huggingface": 0.3915
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.3351,
+      "huggingface": 0.3612
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.3307,
+      "huggingface": 0.3653
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/TensorFlow",
+      "openai": 0.3284,
+      "huggingface": 0.4022
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.3244,
+      "huggingface": 0.4786
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.3163,
+      "huggingface": 0.4495
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.3135,
+      "huggingface": 0.4162
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.3122,
+      "huggingface": 0.3408
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.3106,
+      "huggingface": 0.3696
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.3069,
+      "huggingface": 0.335
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.3043,
+      "huggingface": 0.2599
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.3009,
+      "huggingface": 0.2761
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2993,
+      "huggingface": 0.3174
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2959,
+      "huggingface": 0.4072
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.2934,
+      "huggingface": 0.2621
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.2922,
+      "huggingface": 0.3459
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2916,
+      "huggingface": 0.3206
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.2915,
+      "huggingface": 0.268
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.289,
+      "huggingface": 0.364
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/PyTorch",
+      "openai": 0.2882,
+      "huggingface": 0.4676
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2861,
+      "huggingface": 0.3455
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.283,
+      "huggingface": 0.2675
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.2825,
+      "huggingface": 0.5795
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.28,
+      "huggingface": 0.3011
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/The_Blue_Marble vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2787,
+      "huggingface": 0.4545
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.2787,
+      "huggingface": 0.4529
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.2773,
+      "huggingface": 0.4033
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2771,
+      "huggingface": 0.3952
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.2762,
+      "huggingface": 0.5386
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.2756,
+      "huggingface": 0.3389
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.2688,
+      "huggingface": 0.2923
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.267,
+      "huggingface": 0.4531
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.2668,
+      "huggingface": 0.3653
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2648,
+      "huggingface": 0.3861
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/The_Blue_Marble vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2615,
+      "huggingface": 0.4032
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2613,
+      "huggingface": 0.2768
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2586,
+      "huggingface": 0.4023
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.2568,
+      "huggingface": 0.2668
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.2564,
+      "huggingface": 0.3269
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2543,
+      "huggingface": 0.4566
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.2515,
+      "huggingface": 0.368
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2507,
+      "huggingface": 0.2021
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.2466,
+      "huggingface": 0.395
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.2456,
+      "huggingface": 0.2493
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.2443,
+      "huggingface": 0.3199
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2443,
+      "huggingface": 0.2781
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2438,
+      "huggingface": 0.2749
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2425,
+      "huggingface": 0.4305
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2409,
+      "huggingface": 0.3019
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.2407,
+      "huggingface": 0.2858
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.2383,
+      "huggingface": 0.4189
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.2362,
+      "huggingface": 0.2754
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.234,
+      "huggingface": 0.4325
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2332,
+      "huggingface": 0.2539
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.2331,
+      "huggingface": 0.3188
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2292,
+      "huggingface": 0.2668
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.2285,
+      "huggingface": 0.2039
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.2284,
+      "huggingface": 0.511
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.2262,
+      "huggingface": 0.334
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.2258,
+      "huggingface": 0.2624
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.2252,
+      "huggingface": 0.3392
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/The_Blue_Marble vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.2241,
+      "huggingface": 0.59
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2239,
+      "huggingface": 0.4682
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.2223,
+      "huggingface": 0.2993
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.2197,
+      "huggingface": 0.2032
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.2196,
+      "huggingface": 0.3149
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.215,
+      "huggingface": 0.4586
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2149,
+      "huggingface": 0.2039
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2134,
+      "huggingface": 0.3339
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.2127,
+      "huggingface": 0.3718
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2127,
+      "huggingface": 0.3138
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.2124,
+      "huggingface": 0.4499
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.212,
+      "huggingface": 0.3933
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.2116,
+      "huggingface": 0.538
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.2115,
+      "huggingface": 0.4492
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.2106,
+      "huggingface": 0.3566
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2106,
+      "huggingface": 0.3979
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2097,
+      "huggingface": 0.2779
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.2096,
+      "huggingface": 0.1625
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Zbrojni vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.2087,
+      "huggingface": 0.4034
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.2066,
+      "huggingface": 0.2357
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2056,
+      "huggingface": 0.5232
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/The_Blue_Marble vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.2042,
+      "huggingface": 0.5316
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.2039,
+      "huggingface": 0.5258
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.2012,
+      "huggingface": 0.3816
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.1994,
+      "huggingface": 0.2164
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.199,
+      "huggingface": 0.3011
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.1976,
+      "huggingface": 0.2568
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Ciemna_energia vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1955,
+      "huggingface": 0.3827
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/The_Blue_Marble vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1939,
+      "huggingface": 0.5258
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.1919,
+      "huggingface": 0.3635
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.1911,
+      "huggingface": 0.4771
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.1894,
+      "huggingface": 0.3165
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.1884,
+      "huggingface": 0.5703
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.1869,
+      "huggingface": 0.3279
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.1859,
+      "huggingface": 0.3915
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.1848,
+      "huggingface": 0.4379
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1845,
+      "huggingface": 0.4463
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.1843,
+      "huggingface": 0.3087
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.1839,
+      "huggingface": 0.2534
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Muzyka_duszy vs https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "openai": 0.18,
+      "huggingface": 0.452
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.1791,
+      "huggingface": 0.2883
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.1783,
+      "huggingface": 0.3581
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.1775,
+      "huggingface": 0.2332
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "openai": 0.1771,
+      "huggingface": 0.3987
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.1744,
+      "huggingface": 0.2153
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.1733,
+      "huggingface": 0.2054
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.1732,
+      "huggingface": 0.2258
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Kwazar vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1724,
+      "huggingface": 0.399
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "openai": 0.1721,
+      "huggingface": 0.2381
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1715,
+      "huggingface": 0.5454
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.17,
+      "huggingface": 0.3145
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Kwazar",
+      "openai": 0.1685,
+      "huggingface": 0.1947
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1671,
+      "huggingface": 0.3758
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.1669,
+      "huggingface": 0.3508
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1666,
+      "huggingface": 0.3603
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1657,
+      "huggingface": 0.3913
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "openai": 0.1651,
+      "huggingface": 0.3422
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/ChatGPT vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1648,
+      "huggingface": 0.4989
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.1644,
+      "huggingface": 0.344
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.1598,
+      "huggingface": 0.3519
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.158,
+      "huggingface": 0.3237
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1558,
+      "huggingface": 0.3582
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PLLuM vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.1538,
+      "huggingface": 0.3279
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.152,
+      "huggingface": 0.2444
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Blazar vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1494,
+      "huggingface": 0.4058
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1398,
+      "huggingface": 0.3759
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Zbrojni",
+      "openai": 0.1353,
+      "huggingface": 0.3654
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.1327,
+      "huggingface": 0.2177
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "openai": 0.1324,
+      "huggingface": 0.3997
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "openai": 0.1275,
+      "huggingface": 0.2623
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Hekabe",
+      "openai": 0.1152,
+      "huggingface": 0.2059
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Blazar",
+      "openai": 0.1131,
+      "huggingface": 0.3405
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.1097,
+      "huggingface": 0.2285
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.1093,
+      "huggingface": 0.4699
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Achilles",
+      "openai": 0.0901,
+      "huggingface": 0.2413
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.0871,
+      "huggingface": 0.2963
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "openai": 0.0812,
+      "huggingface": 0.2549
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.0812,
+      "huggingface": 0.2863
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Penelopa",
+      "openai": 0.0781,
+      "huggingface": 0.3982
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/TensorFlow vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.0759,
+      "huggingface": 0.2391
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/Hugging_Face vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.0743,
+      "huggingface": 0.3385
+    },
+    {
+      "urls": "https://pl.wikipedia.org/wiki/PyTorch vs https://pl.wikipedia.org/wiki/Agamemnon",
+      "openai": 0.0734,
+      "huggingface": 0.3543
+    }
+  ],
+  "nouns": [
+    {
+      "url": "https://pl.wikipedia.org/wiki/Achilles",
+      "nouns": [
+        {
+          "noun": "achilles",
+          "stanza": 16,
+          "spacy": 10
+        },
+        {
+          "noun": "hektor",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "matka",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "syn",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "peleus",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "tetyda",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "heros",
+          "stanza": 2,
+          "spacy": 3
+        },
+        {
+          "noun": "bohater",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "cios",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "córka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dziecko",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "król",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "miasto",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "miejsce",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "mitologia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "myrmidon",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ojciec",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przypis",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wojna",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "śmierć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "branka",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "królewna",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "neoptolemos",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pięto",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "przepowiednia",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "troja",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "zbrója",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "hektora",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "branek",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "patroklos",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "potrzebny",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "zbroję",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "ἀχιλλεύς",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Agamemnon",
+      "nouns": [
+        {
+          "noun": "agamemnon",
+          "stanza": 13,
+          "spacy": 15
+        },
+        {
+          "noun": "agamemnona",
+          "stanza": 10,
+          "spacy": 3
+        },
+        {
+          "noun": "klitajmestra",
+          "stanza": 8,
+          "spacy": 7
+        },
+        {
+          "noun": "czas",
+          "stanza": 7,
+          "spacy": 7
+        },
+        {
+          "noun": "żona",
+          "stanza": 7,
+          "spacy": 7
+        },
+        {
+          "noun": "udział",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "kasandra",
+          "stanza": 5,
+          "spacy": 3
+        },
+        {
+          "noun": "troina",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "achilles",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "córka",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "król",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "syn",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wojna",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "branka",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "mit",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "ajgistos",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "chrysotemis",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "chryzejda",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dom",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dziecko",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dzień",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "głowa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ifigenia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kąpiel",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "mąż",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "oblężenie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "plejstenes",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ręka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "sieć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "topór",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wersja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wyprawa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "śmierć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "amyklaj",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "argolida",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "groba",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "helen",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "iliad",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "menelaosa",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "miasto",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "myken",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wódz",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "świta",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "menelaos",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "agamemnić",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "argolid",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "elektra",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "helena",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "ifianassa",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "iliada",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "kasandro",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "orestes",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Blazar",
+      "nouns": [
+        {
+          "noun": "zakres",
+          "stanza": 13,
+          "spacy": 13
+        },
+        {
+          "noun": "promieniowanie",
+          "stanza": 10,
+          "spacy": 10
+        },
+        {
+          "noun": "blazary",
+          "stanza": 9,
+          "spacy": 0
+        },
+        {
+          "noun": "blazar",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "rok",
+          "stanza": 7,
+          "spacy": 2
+        },
+        {
+          "noun": "zmienność",
+          "stanza": 6,
+          "spacy": 5
+        },
+        {
+          "noun": "teleskop",
+          "stanza": 6,
+          "spacy": 4
+        },
+        {
+          "noun": "typ",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "fala",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "jądro",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "dżet",
+          "stanza": 4,
+          "spacy": 6
+        },
+        {
+          "noun": "lacertyd",
+          "stanza": 4,
+          "spacy": 6
+        },
+        {
+          "noun": "czynnik",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "emisja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "obserwacja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "polaryzacja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "położenie",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "gamma",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "galaktyka",
+          "stanza": 4,
+          "spacy": 2
+        },
+        {
+          "noun": "kwazar",
+          "stanza": 3,
+          "spacy": 4
+        },
+        {
+          "noun": "linia",
+          "stanza": 3,
+          "spacy": 4
+        },
+        {
+          "noun": "charakter",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "elektron",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "energia",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "jasność",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "mapa",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "model",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "obserwator",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "przypadek",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "składnik",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "tev",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "widmo",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "bieżący_rok",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "odległość",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "przyspieszać",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "kwazara",
+          "stanza": 2,
+          "spacy": 3
+        },
+        {
+          "noun": "obserwatorium",
+          "stanza": 2,
+          "spacy": 3
+        },
+        {
+          "noun": "czerwień",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dane",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dysk",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "długość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "foton",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "interpretacja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kampania",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "klasa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "komptonizacja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kąt",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obecność",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obiekt",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obszar",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "plazma",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pole",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "proces",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "propagacja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "radiogalaktyk",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rząd",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "skała",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "szerokość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "\\gamm",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "cząstka",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "dżeta",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "fokt_ran",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "gev",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kwazary",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "lacertyda",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "lorentzo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "mera",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "obserwatorius",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "prędkość",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "punkt",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "składowa",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "widmia",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "{\\displaystyle",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "{\\displaystyła",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "blazara",
+          "stanza": 0,
+          "spacy": 9
+        },
+        {
+          "noun": "}",
+          "stanza": 0,
+          "spacy": 7
+        },
+        {
+          "noun": "∼",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "=",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "\\displaystyle",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "bl",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "fr",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "galaktyk",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "lac",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "odległościa",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "optycznie",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "prędkoścei",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "widm",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/ChatGPT",
+      "nouns": [
+        {
+          "noun": "chatgpt",
+          "stanza": 24,
+          "spacy": 23
+        },
+        {
+          "noun": "model",
+          "stanza": 15,
+          "spacy": 15
+        },
+        {
+          "noun": "gotpota",
+          "stanza": 10,
+          "spacy": 0
+        },
+        {
+          "noun": "język",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "rok",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "użytkownik",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "dane",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "odpowiedź",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "informacja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "listopad",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "miesiąc",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "tekst",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "google",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "treść",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "barda",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "chatbot",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "jakość",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "marzec",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "nazwa",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "pytanie",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "rozmowa",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "strona",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "uwaga",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wiedza",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "zależność",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "alternatywa",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "generować",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "uczyć",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "ai",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "badanie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "człowiek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "firma",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "funkcja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "geminia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "inteligencja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kwiecień",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "luty",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "maj",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "narzędzie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "naukowiec",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "openai",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "państwo",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pisać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "podstawa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pomoc",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "popularność",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "program",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rozwój",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "spółka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "stan",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "uniwersytet",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wersja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wyszukiwarka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "anthropica",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "huggingchat",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "milion",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "podpowiedź",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "technologia",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "trenować",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "trurl",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "tworzyć",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "usługa",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "gpt",
+          "stanza": 0,
+          "spacy": 7
+        },
+        {
+          "noun": "﻿",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "anthropic",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "claude",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "generowanie",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "robot",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "trurl.ai",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Ciemna_energia",
+      "nouns": [
+        {
+          "noun": "energia",
+          "stanza": 15,
+          "spacy": 15
+        },
+        {
+          "noun": "wszechświat",
+          "stanza": 13,
+          "spacy": 13
+        },
+        {
+          "noun": "ekspansja",
+          "stanza": 9,
+          "spacy": 9
+        },
+        {
+          "noun": "materia",
+          "stanza": 9,
+          "spacy": 7
+        },
+        {
+          "noun": "galaktyka",
+          "stanza": 7,
+          "spacy": 7
+        },
+        {
+          "noun": "gęstość",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "model",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "pomiar",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "promieniowanie",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "masa",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "obserwacja",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "rozkład",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "tempo",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "teoria",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "gromada",
+          "stanza": 5,
+          "spacy": 2
+        },
+        {
+          "noun": "procent",
+          "stanza": 5,
+          "spacy": 0
+        },
+        {
+          "noun": "część",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "hipoteza",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "kosmos",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "problem",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "tło",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "wynik",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "dane",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "istnieć",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "rok",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "struktura",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "typ",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wiek",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "założenie",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "ziemia",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "kwintesencja",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "forma",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "ia",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "soczewkować",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "wszechświecie",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "aspekt",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "badanie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "czas",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "czerwień",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dark",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "gwiazda",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kosmologia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "miejsce",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obraz",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "oscylacja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "parametr",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pole",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przegląd",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rozszerzać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "siła",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "układ",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "względność",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "energa",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "hubble’",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "przyspieszać",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "przyspieszenie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "widmo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wszechświet",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "cdm",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "energy",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "form",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "hubbel",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "soczewkowanie",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "’",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Dysk_akrecyjny",
+      "nouns": [
+        {
+          "noun": "gwiazda",
+          "stanza": 26,
+          "spacy": 26
+        },
+        {
+          "noun": "dysk",
+          "stanza": 25,
+          "spacy": 25
+        },
+        {
+          "noun": "materia",
+          "stanza": 16,
+          "spacy": 15
+        },
+        {
+          "noun": "dziura",
+          "stanza": 13,
+          "spacy": 15
+        },
+        {
+          "noun": "promieniowanie",
+          "stanza": 12,
+          "spacy": 12
+        },
+        {
+          "noun": "część",
+          "stanza": 10,
+          "spacy": 10
+        },
+        {
+          "noun": "pąd",
+          "stanza": 10,
+          "spacy": 6
+        },
+        {
+          "noun": "dyska",
+          "stanza": 10,
+          "spacy": 0
+        },
+        {
+          "noun": "moment",
+          "stanza": 9,
+          "spacy": 9
+        },
+        {
+          "noun": "orbit",
+          "stanza": 9,
+          "spacy": 0
+        },
+        {
+          "noun": "pole",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "horyzont",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "obiekt",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "układ",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "cząstka",
+          "stanza": 6,
+          "spacy": 4
+        },
+        {
+          "noun": "promień",
+          "stanza": 6,
+          "spacy": 4
+        },
+        {
+          "noun": "efekt",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "galaktyka",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "lepkość",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "powierzchnia",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "odległość",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "akrecja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "foton",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "temperatura",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "plazma",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "ciało",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "energia",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "kierunek",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "miejsce",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "teoria",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "typ",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wiatr",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wynik",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "względność",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "zakres",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "ciepło",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "czas",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "forma",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "gaz",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "masa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obserwator",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obszar",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ośrodek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "podstawa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przekazywać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przypadek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pył",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rozkład",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ruch",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "siła",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "struktura",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wartość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wpływ",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "zjawisko",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "c",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "ciśnienie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "dziuro",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "gram",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kwazary",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "metr",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "polar",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "założenie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "świecić",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "}",
+          "stanza": 0,
+          "spacy": 5
+        },
+        {
+          "noun": "orbity",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "pęd",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "dyski",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "\\frac",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "cząstek",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "kwazara",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "orbita",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "promieć",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "świecenie",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "’",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Hekabe",
+      "nouns": [
+        {
+          "noun": "dziecko",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "priam",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "hekab",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "troina",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "kasandra",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "królowa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "polidor",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rozpacz",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "śmierć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "żona",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "hektor",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "helenos",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kreuz",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "medesykasta",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pandaros",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "polidamas",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "poliksen",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "troilos",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kreuza",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Hugging_Face",
+      "nouns": [
+        {
+          "noun": "firma",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "hugging",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "platforma",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "faka",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "incyniec",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "uczyć",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "faca",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Kwazar",
+      "nouns": [
+        {
+          "noun": "kwazar",
+          "stanza": 22,
+          "spacy": 26
+        },
+        {
+          "noun": "rok",
+          "stanza": 12,
+          "spacy": 12
+        },
+        {
+          "noun": "galaktyka",
+          "stanza": 12,
+          "spacy": 11
+        },
+        {
+          "noun": "kwazara",
+          "stanza": 11,
+          "spacy": 7
+        },
+        {
+          "noun": "dziura",
+          "stanza": 8,
+          "spacy": 9
+        },
+        {
+          "noun": "gwiazda",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "obiekt",
+          "stanza": 7,
+          "spacy": 7
+        },
+        {
+          "noun": "miliard",
+          "stanza": 7,
+          "spacy": 4
+        },
+        {
+          "noun": "ewolucja",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "promieniowanie",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "światło",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "czerwień",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "dysk",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "materia",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "odległość",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "czas",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "jasność",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "jądro",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "niebo",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "odkrycie",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "otoczenie",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "ziemia",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "badać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "centrum",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "emisja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "jednostka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "liczba",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "moc",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "objętość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "powstawać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rodzaj",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rząd",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "strona",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "tempo",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wiek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wykres",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "zakres",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "związek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "źródło",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przesunąć",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "widmo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "odległościa",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "dżet",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "przesunięć",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "stellar",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Muzyka_duszy",
+      "nouns": [
+        {
+          "noun": "muzyka",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "dusza",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "powieść",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "wydać",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "wydanie",
+          "stanza": 2,
+          "spacy": 3
+        },
+        {
+          "noun": "data",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "dysk",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "książka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "śmierć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "imina",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "piotro",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pratchett",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wiek",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "cholew",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "imp",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "piotr",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/PLLuM",
+      "nouns": [
+        {
+          "noun": "model",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "pllum",
+          "stanza": 8,
+          "spacy": 7
+        },
+        {
+          "noun": "cyfryzacja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "rok",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "język",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "projekt",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "ekspert",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "informatyka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "instytut",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "luty",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "miliard",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ministerstwo",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pan",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przetwarzać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rodzina",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "tekst",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "tworzyć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "license",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "llama",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "mobywatel",
+          "stanza": 2,
+          "spacy": 0
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Pale_Blue_Dot",
+      "nouns": [
+        {
+          "noun": "zdjęcie",
+          "stanza": 8,
+          "spacy": 7
+        },
+        {
+          "noun": "układ",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "ziemia",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "voyager",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "sonda",
+          "stanza": 3,
+          "spacy": 5
+        },
+        {
+          "noun": "miliard",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "odległość",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "aparat",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "cel",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "fotografia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "kilometr",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obszar",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "portret",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rok",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "użyć",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wersja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "bóu",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "dotar",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kropka",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pała",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "sondo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "dot",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Penelopa",
+      "nouns": [
+        {
+          "noun": "odyseusz",
+          "stanza": 5,
+          "spacy": 0
+        },
+        {
+          "noun": "żona",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "mąż",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "rok",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "penelop",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "matka",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "postać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "szata",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "telemach",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ikarios",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "odyseusza",
+          "stanza": 0,
+          "spacy": 3
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/PyTorch",
+      "nouns": [
+        {
+          "noun": "pytory",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "biblioteka",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "język",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "linux",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "oprogramowanie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "python",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rok",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pytorch",
+          "stanza": 0,
+          "spacy": 4
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Retrieval-augmented_generation",
+      "nouns": [
+        {
+          "noun": "roga",
+          "stanza": 6,
+          "spacy": 0
+        },
+        {
+          "noun": "dane",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "informacja",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "użytkownik",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "pole",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "llm",
+          "stanza": 3,
+          "spacy": 4
+        },
+        {
+          "noun": "odpowiedź",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "model",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "dokument",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "generation",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "retrieval",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "schemat",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "technika",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wzbogacać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "zapytanie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "źródło",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "generowanie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "lemieg",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pobierać",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "treść",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wyszukiwać",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pol",
+          "stanza": 0,
+          "spacy": 4
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Sen_Agamemnona",
+      "nouns": [
+        {
+          "noun": "sen",
+          "stanza": 14,
+          "spacy": 14
+        },
+        {
+          "noun": "zeus",
+          "stanza": 5,
+          "spacy": 4
+        },
+        {
+          "noun": "schemat",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "homer",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "agamemnona",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "achaj",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "apokalipsa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "cambier",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "poemat",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przekazać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wiadomość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wąż",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "cerfaux",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "na",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "ptasząt",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "rok",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "ptaszę",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Soczewkowanie_grawitacyjne",
+      "nouns": [
+        {
+          "noun": "obraz",
+          "stanza": 18,
+          "spacy": 18
+        },
+        {
+          "noun": "galaktyka",
+          "stanza": 15,
+          "spacy": 15
+        },
+        {
+          "noun": "soczewkować",
+          "stanza": 11,
+          "spacy": 0
+        },
+        {
+          "noun": "soczewka",
+          "stanza": 9,
+          "spacy": 8
+        },
+        {
+          "noun": "soczewkowanie",
+          "stanza": 8,
+          "spacy": 12
+        },
+        {
+          "noun": "obiekt",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "źródło",
+          "stanza": 8,
+          "spacy": 8
+        },
+        {
+          "noun": "efekt",
+          "stanza": 7,
+          "spacy": 7
+        },
+        {
+          "noun": "materia",
+          "stanza": 7,
+          "spacy": 6
+        },
+        {
+          "noun": "ciało",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "gromada",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "promień",
+          "stanza": 4,
+          "spacy": 3
+        },
+        {
+          "noun": "rozkład",
+          "stanza": 4,
+          "spacy": 2
+        },
+        {
+          "noun": "einsteina",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "hubble’",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "mikrosoczewkować",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "przykład",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "symulacja",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "szczególność",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "teleskop",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "łuk",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "analiza",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "energia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "gęstość",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "masa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obecność",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "obserwator",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "parametr",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "podstawa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "przejaw",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "rodzaj",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wszechświat",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "zderzenie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "halo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pojaśnienie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "rok",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wyznaczyć",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "zniekształcenie",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "hubbel",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "soczewkowania",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "’",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "einstein",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "pojaśnieć",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "soczewkowaniu",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "zniekształceć",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/TensorFlow",
+      "nouns": [
+        {
+          "noun": "biblioteka",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "język",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "model",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "warstwa",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "api",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "programowanie",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "rok",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "google",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "listopad",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "python",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wersja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "centypetr",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "team",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "tensorflowa",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "c++",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "tensorflow",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/The_Blue_Marble",
+      "nouns": [
+        {
+          "noun": "zdjęcie",
+          "stanza": 14,
+          "spacy": 13
+        },
+        {
+          "noun": "fotografia",
+          "stanza": 6,
+          "spacy": 6
+        },
+        {
+          "noun": "obraz",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "ziemia",
+          "stanza": 5,
+          "spacy": 5
+        },
+        {
+          "noun": "apollo",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "marbeł",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "nas",
+          "stanza": 4,
+          "spacy": 0
+        },
+        {
+          "noun": "afryka",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "grudzień",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "góra",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "rok",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "rozdzielczość",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "załoga",
+          "stanza": 3,
+          "spacy": 3
+        },
+        {
+          "noun": "astronauta",
+          "stanza": 3,
+          "spacy": 2
+        },
+        {
+          "noun": "chmura",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "harrison",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "historia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "nazwa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "pełnia",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "raz",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "zestaw",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "antarktyda",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "bieguna",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "kilometr",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "piksel",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "vlue",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wybrzeże",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "marble",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "nasa",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "blue",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "hasselblad",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "seria",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Zbrojni",
+      "nouns": [
+        {
+          "noun": "straż",
+          "stanza": 4,
+          "spacy": 4
+        },
+        {
+          "noun": "d’eath",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "tłumaczenie",
+          "stanza": 3,
+          "spacy": 0
+        },
+        {
+          "noun": "czas",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "data",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "funkcja",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "nazwa",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "oryginał",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "potomek",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "powieść",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wydanie",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "wydać",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "śledztwo",
+          "stanza": 2,
+          "spacy": 2
+        },
+        {
+          "noun": "ankh-morpork",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "cholewo",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "piotro",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "pratchett",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "wiek",
+          "stanza": 2,
+          "spacy": 0
+        },
+        {
+          "noun": "’",
+          "stanza": 0,
+          "spacy": 4
+        },
+        {
+          "noun": "eath",
+          "stanza": 0,
+          "spacy": 3
+        },
+        {
+          "noun": "ankh",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "cholew",
+          "stanza": 0,
+          "spacy": 2
+        },
+        {
+          "noun": "piotr",
+          "stanza": 0,
+          "spacy": 2
+        }
+      ]
     }
   ]
 }
